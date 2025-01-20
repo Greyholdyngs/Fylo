@@ -1,0 +1,374 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", serif;
+    font-weight: weight;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+}
+body {
+    background-color: hsl(218, 28%, 13%);
+    background-image: url('./images/bg-curvy-desktop.svg');
+    background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-blend-mode: light;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 5%;
+    margin-block-end: 50px;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+header ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+.introduction {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+.introduction .img-cover img {
+    width: 70%;
+}
+.introduction .info-cover {
+    padding: 30px;
+    font-size: 25px;
+}
+.introduction .info-cover p {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introduction .info-cover a {
+    text-decoration: none;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    padding: 5px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.introduction .info-cover a:hover{
+    background-image: linear-gradient(to right, hsl(176, 68%, 70%), hsl(176, 68%, 70%));
+}
+main {
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    gap: 70px;
+    width: 70%;
+    padding-block: 70px;
+    font-size: 15px;
+}
+main h3 {
+    margin-block: 10px;
+}
+main .area-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+main .area-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+main .area-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+main .area-4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.productive-cover {
+    display: flex;
+    gap: 15%;
+    align-items: center;
+    padding-inline: 5%;
+}
+.productive-cover .img-cover img {
+    width: 130%;
+}
+.productive-cover .info-cover h1 {
+    font-size: 48px;
+    line-height: 125%;
+}
+.productive-cover .info-cover p {
+    font-size: 15px;
+    margin-block: 3%;
+}
+.productive-cover .info-cover a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-block: 5px;
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+    width: 160px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+.productive-cover .info-cover a:hover{
+    color: hsl(0, 0%, 100%);
+}
+.parent-profile {
+    margin-block: 100px;
+}
+.parent-profile .img img {
+    width: 5%;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    z-index: -1;
+}
+.parent-profile .children-profile {
+    display: flex;
+    gap: 70px;
+    font-size: 13px;
+    width: 80%;
+    margin: auto;
+} 
+.parent-profile .children-profile .wrapper {
+    width: 300px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: 10px 10px 5px hsl(217, 28%, 10%);
+}
+.parent-profile .children-profile .wrapper .details {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-block: 7% 3%;
+    font-size: 10px;
+}
+.parent-profile .children-profile .wrapper .details img {
+    width: 15%;
+    border-radius: 100px;
+}
+.early-access-cobver {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px hsl(217, 28%, 10%);
+    padding: 5% 1%;
+    font-size: 25px;
+    position: relative;
+    top: 120px;
+}
+.early-access-cobver p {
+    font-size: 13px;
+    padding-block: 20px;
+    width: 70%;
+    margin: auto;
+}
+.early-access-cobver form input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 15px;
+}
+.early-access-cobver form a {
+    width: 10px;
+    font-size: 15px;
+    margin-inline: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.early-access-cobver a:hover {
+    background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%)) ;
+}
+footer {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: hsl(216, 53%, 9%);
+    padding-inline: 7%;
+}
+footer nav {
+    margin-bottom: 20px;
+}
+footer .section {
+    display: flex;
+    justify-content: space-between;
+}
+footer .section li {
+    margin-bottom: 10px;
+}
+footer .section li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 90%);
+}
+footer .section li a:hover {
+    color: hsl(0, 0%, 100%);
+}
+footer .section .location {
+    width: 30%;
+}
+footer .section .location li {
+    list-style-image: url('./images/icon-location.svg');
+}
+footer .section .contact .l1 {
+    list-style-image: url('./images/icon-phone.svg');
+}
+footer .section .contact .l2 {
+    list-style-image: url('./images/icon-email.svg');
+}
+footer .section ol {
+    list-style-type: none;
+}
+footer .section .icon {
+    display: flex;
+    gap: 30%;
+}
+footer .attribute {
+    margin-block: 25px;
+}
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+    header {
+        margin-block: 5%;
+    }
+    header nav a img {
+        width: 50%;
+    }
+    header ul {
+        gap: 10px;
+    }
+    .introduction {
+        width: 100%;
+        margin: 0%;
+    }
+    .introduction .info-cover {
+        font-size: 90%;
+    }
+    .introduction .info-cover p {
+        font-size: 110%;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding-block: 15%;
+        width: 90%;
+    }
+    .productive-cover {
+        flex-direction: column;
+    }
+    .productive-cover .img-cover img {
+        width: 100%;
+    }
+    .productive-cover .info-cover h1 {
+        font-size: 120%;
+        margin-block: 7%;
+    }
+    .productive-cover .info-cover p {
+        font-size: 90%;
+    }
+    .parent-profile .children-profile {
+        flex-direction: column;
+    }
+    .parent-profile .children-profile {
+        gap: 20px;
+    }
+    .parent-profile .children-profile .wrapper {
+        width: 90%;
+    }
+    .early-access-cobver {
+        font-size: 100%;
+        width: 80%;
+    }
+    .early-access-cobver p {
+        font-family: 50%;
+        width: 90%;
+    }
+    .early-access-cobver form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .early-access-cobver form input {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .early-access-cobver form a {
+        width: 78%;
+    }
+    footer {
+        height: 800px;
+    }
+    footer .section {
+        flex-direction: column;
+        padding-inline: 10%;
+    }
+    footer .section .location {
+        width: 100%;
+    }
+    footer .section ul li {
+        position: relative;
+        padding-left: 15px;
+        padding-block: 5px;
+    }
+    footer .section ol {
+        margin-block: 20px;
+    } 
+    footer .section .icon {
+        gap: 10%;
+        align-items: center;
+        width: 30%;
+        margin: auto;
+        padding-block: 5%;
+    }  
+}
+@media only screen and (max-width: 1100px) and (min-width: 700px) {
+    header {
+        padding-block-start: 7%;
+    }
+    header ul li a {
+        font-size: 110%;
+    }
+    .introduction .info-cover {
+        font-size: 90%;
+    }
+    .introduction .info-cover p {
+        height: 100px;
+    }
+    main {
+        gap: 50px;
+        font-size: 80%;
+    }
+    .productive-cover .info-cover h1 {
+        font-size: 120%;
+    }
+    .productive-cover .info-cover p {
+        font-size: 95%;
+    }
+    .parent-profile .img img {
+        left: 3%;
+    }
+    .parent-profile .children-profile {
+        width: 90%;
+        font-size: 70%;
+        gap: 5%;
+    }
+    .early-access-cobver {
+        width: 80%;
+    }
+    footer .section .location {
+        font-size: 90%;
+    }
+}
